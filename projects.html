@@ -126,6 +126,7 @@
                                     <li><a href="https://www.facebook.com/profile.php?id=100007272667282"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="https://github.com/conankuncs"><i class="fa fa-github"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/jkim904/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://blog.conankun.us"><i class="fa fa-wordpress"></i></a></li>
                                 </ul>
                             </div>
 
@@ -181,6 +182,32 @@
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                                 </div>
                                             </li>
+
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-md-3">
+                                                        <div class="image" align="center">
+                                                            <img alt="image" src="img/project/fill_tensor.png" class="img-responsive">
+                                                            <div class="imageoverlay">
+                                                                <i class="fa fa-search"></i>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-8 col-md-9">
+                                                        <div class="meta">
+                                                            <h3>Fill Estimation Algorithm (PHIL)</h3>
+                                                            <p>The approximation algorithm to estimate <code>Fill</code> of the given tensor</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="details">
+                                                    <p>PHIL algorithm (currently submitted to <a href="http://www.ipdps.org/"><code>IPDPS 2018</code></a>) estimates the <code>Fill</code> of the given tensor in <code>CSF</code> format given the range of block sizes.</p>
+                                                    <p>The <code>Fill</code> of the tensor is considered to be correlated with best block size for MTTKRP algorithm. The matrix case is shown by Dr. Richard Vuduc. We will use PHIL algoritm to find the relationship between the <code>Fill</code> and the best block size for finding best block size for MTTKRP algorithm for <code>HiCOO</code> Format (Currently submitted to <a href="http://www.ipdps.org/"><code>IPDPS 2018</code></a>).</p>
+                                                    <p>I collaborated with the authors of PHIL algorithm to implement the algorithm for <code>COO</code> formatted tensors and extend matrix case algorithm to general order tensor case.</p>
+                                                </div>
+                                            </li>
+
                                             <li>
                                                 <div class="row">
                                                     <div class="col-sm-4 col-md-3">
@@ -201,7 +228,7 @@
                                                 </div>
                                                 <div class="details">
                                                     <p>We present a privacy preserving fingerprint authentication protocol based on minutiae points which is the most accurate and promising fingerprint matching algorithm. 
-Our protocol provides a secure alignment and matching protocol in two-party settings between a user and a service provider using inner product encryption. We devise a new encodings to compute alignment parameters consists of shift and rotation information for minutiae points. This allows the user to align fingerprint before encrypting fingerprint sample. This extremely reduces the computation overhead from $\mathcal O(n^3)$ to $\mathcal O(n^2)$, where $n$ is the number of minutiae points in the fingerprint. We also propose a method to compute Euclidean distance of two vectors using inner product encryption without leaking any information of two vectors themselves. 
+Our protocol provides a secure alignment and matching protocol in two-party settings between a user and a service provider using inner product encryption. We devise a new encodings to compute alignment parameters consists of shift and rotation information for minutiae points. This allows the user to align fingerprint before encrypting fingerprint sample. This extremely reduces the computation overhead from O(n^3) to O(n^2), where n is the number of minutiae points in the fingerprint. We also propose a method to compute Euclidean distance of two vectors using inner product encryption without leaking any information of two vectors themselves. 
 This further reduces the computation overhead about 25% as well. </p>
 
 <p>The implementation results over desktop takes less than 1 second in authenticating one person which shows practicality of our protocol. This results achieve at least 60 times faster than previous 2-party setting of Bayatbabolghani et al.'s recent work which exploits Garbled circuit.</p>
@@ -226,9 +253,9 @@ This further reduces the computation overhead about 25% as well. </p>
                                                     </div>
                                                 </div>
                                                 <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>IT Factory COIN is an online judge (program autograder) and assignment management system for <a href="https://dimigo.hs.kr"><code>KDMH</code></a>. In this system, instructors can assign programming assignments to students, and students can submit solution until the deadline specified by the instructor. The instructor is able to see statistics on students' submission. Also, students can improve algorithm skills by solving numerous challenging problems on the system. We encouraged this kind of learning by bestowing them a "badge" - there is a specific requirement to get a badge, and if a user satisfies it, we grant that badge. IT Factory COIN has been used for assignments (C Programming) for the entire pre-freshmen since 2015(every year). Now it's used as an official online judge for C programming course at <a href="https://dimigo.hs.kr"><code>KDMH</code></a>.
+                                                    </p>
+                                                    <p>Website: <a href="https://algorithm.dimigo.hs.kr">https://algorithm.dimigo.hs.kr</a></p>
                                                 </div>
                                             </li>
                                             <li>
